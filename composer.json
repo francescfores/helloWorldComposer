@@ -1,0 +1,11 @@
+{
+    "name": "francescfores/hello-world-composer",
+    "description": "bla bla bla",
+    "authors": [
+        {
+            "name": "francescfores",
+            "email": "francescfores@iesebre.com"
+        }
+    ],
+    "require": {}
+}
