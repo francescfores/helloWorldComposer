@@ -1,8 +1,8 @@
 <?php
-require __DIR__."/Hello.php";
 
+require __DIR__ . "/vendor/autoload.php";
 
+use Com\Iesebre\Dam2\francescfores\helloWorldComposer\Hello;
 
-$greeting = new
-Hello();
-$greeting->sayHello();
+$greetings = new Hello();
+$greetings->sayHello();

@@ -1,6 +1,7 @@
 <?php
+namespace Com\Iesebre\Dam2\francescfores\helloWorldComposer;
+use Faker\Factory;
 
-require __DIR__."/vendor/autoload.php";
 
 class Hello
 {
@@ -11,7 +12,7 @@ class Hello
      */
     public function __construct()
     {
-        $this->faker  = Faker\Factory::create();
+        $this->faker  = Factory::create();
     }
 
     public  function sayHello(){
